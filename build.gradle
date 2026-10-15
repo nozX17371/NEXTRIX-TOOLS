@@ -14,3 +14,8 @@ allprojects {
         mavenCentral()
     }
 }
+
+// Paksa include module app dari root project
+project(':app') {
+    projectDir = file('app')
+}
